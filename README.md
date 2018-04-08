@@ -2,7 +2,7 @@
 A very efficient  Javascript Library
 
 
-<h2>Application Structure:</h3><br>
+<h2>Application Structure:</h2><br>
 <pre>
 /app
     /components
