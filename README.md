@@ -1,8 +1,12 @@
 # Standard.js
 A very efficient  Javascript Library
 
+## Installation
+<pre>
+$ npm i stnd.js
+</pre>
 
-<h2>Application Structure:</h2><br>
+## Application Structure: <br>
 <pre>
 /app
     /components
