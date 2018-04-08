@@ -149,15 +149,17 @@ module.exports = (function() {
     }
   };
 
-  function createInstance() {
-    return std;
-  }
+  window.std = std;
+
+  // function createInstance() {
+  //   return std;
+  // }
   return {
-    getInstance: function() {
-      if (!instance) {
-        instance = createInstance();
-      }
-      return instance;
-    }
+    // getInstance: function() {
+    //   if (!instance) {
+    //     instance = createInstance();
+    //   }
+    //   return instance;
+    // }
   };
 })();
