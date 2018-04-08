@@ -152,5 +152,10 @@ export default function view() {}
 `<button id="renderHome">Render Home Component on root</button>`
 `{{title}}`
 
+##### Run your index.html with live server to quickly test
 
+License
+----
+
+MIT
 
