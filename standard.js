@@ -149,7 +149,7 @@ module.exports = (function() {
     }
   };
 
-  window.std = std;
+  global.std = std;
 
   // function createInstance() {
   //   return std;
