@@ -1,5 +1,5 @@
-# Standard.js
-A very efficient  Javascript Library
+## Standard.js &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/sucom/SPA.js/blob/master/LICENSE)
+A very efficient, flexible Javascript framework for user facing interfaces.
 
 ## Installation
 <pre>
@@ -161,5 +161,5 @@ export default function view() {}
 License
 ----
 
-MIT
+standardJS is MIT Licensed
 
