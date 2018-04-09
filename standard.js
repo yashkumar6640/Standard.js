@@ -23,7 +23,7 @@
 
 
 var crudOperations = require("./crudOperations.js");
-window.stdFetch = crudOperations();
+global.stdFetch = crudOperations();
 
 module.exports = (function() {
   var instance;
