@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/yashkumar6640/Standard.js/issues"
   },
-  "homepage": "https://github.com/yashkumar6640/Standard.js#readme"
+  "homepage": "https://github.com/yashkumar6640/Standard.js#readme",
+  "keywords": [
+    "stnd.js",
+    "standardjs",
+    "standard.js",
+    "module",
+    "library",
+    "framework"
+  ],
 }
