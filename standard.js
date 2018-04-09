@@ -1,3 +1,6 @@
+var curdOperations = require("./curdOperations.js");
+window.stdFetch = curdOperations();
+
 module.exports = (function() {
   var instance;
   var std = {
