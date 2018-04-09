@@ -1,5 +1,5 @@
-# Standard.js
-A very efficient  Javascript Library
+## Standard.js &middot; [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/sucom/SPA.js/blob/master/LICENSE)
+A very efficient, flexible Javascript framework for user facing interfaces.
 
 ## Installation
 <pre>
@@ -69,6 +69,13 @@ std.passData("view", {
 
 
 ## Basic example:
+
+### You will need to bundle everything and send to server for which you can use webpack bundler and a "html-loader"
+<pre>
+$ npm install webpack webpack-cli --save-dev
+$ npm i html-loader
+</pre>
+
 ##### webpack.config.js
 <pre>
 const path = require("path");
@@ -161,5 +168,5 @@ export default function view() {}
 License
 ----
 
-MIT
+standardJS is MIT Licensed
 
