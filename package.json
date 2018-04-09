@@ -1,6 +1,6 @@
 {
   "name": "stnd.js",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A reusable, flexible and efficient Javascript framework for building user interfaces",
   "main": "standard.js",
   "scripts": {
