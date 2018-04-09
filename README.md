@@ -69,6 +69,13 @@ std.passData("view", {
 
 
 ## Basic example:
+
+### You will need to bundle everything and send to server for which you can use webpack bundler and a "html-loader"
+<pre>
+$ npm install webpack webpack-cli --save-dev
+$ npm i html-loader
+</pre>
+
 ##### webpack.config.js
 <pre>
 const path = require("path");
