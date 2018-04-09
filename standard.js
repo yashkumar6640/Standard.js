@@ -22,8 +22,8 @@
 // SOFTWARE.
 
 
-var curdOperations = require("./curdOperations.js");
-window.stdFetch = curdOperations();
+var crudOperations = require("./crudOperations.js");
+window.stdFetch = crudOperations();
 
 module.exports = (function() {
   var instance;

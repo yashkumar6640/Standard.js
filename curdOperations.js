@@ -1,4 +1,4 @@
-function curdOperations() {
+function crudOperations() {
   var stdFetch = {
     request: function(url, options) {
       if (options.dataType === "json") {
@@ -63,4 +63,4 @@ function curdOperations() {
   return stdFetch;
 }
 
-module.exports = curdOperations;
+module.exports = crudOperations;
