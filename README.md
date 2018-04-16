@@ -114,6 +114,7 @@ std.renderOnTarget("home", "#root");
 
 ##### home.js
 <pre>
+var std = require("stnd.js"
 var homeTemplate = require("./home.html");
 
 std.storeComponent("home", {
@@ -140,6 +141,7 @@ export default function home() {}
 
 ##### view.js
 <pre>
+var std = require("stnd.js"
 var viewTemplate = require("./view.html");
 
 std.storeComponent("view", {
@@ -163,6 +165,10 @@ export default function view() {}
 `<button id="renderHome">Render Home Component on root</button>`
 `{{title}}`
 
+
+#### to fetch from a mock or live api, standardJS provides apis:
+ the apis and examples on https://yashkumar6640.github.io/stdFetch/
+ 
 ##### Run your index.html with live server to quickly test
 
 License
