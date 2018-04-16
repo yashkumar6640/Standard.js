@@ -181,6 +181,16 @@ module.exports = (function() {
       }
     }
   };
+
+  ["click", "change", "load", "mouseover", "input"].forEach(event => {
+    document.addEventListener(event, function(e) {
+      if (e.target && e.target.matches("[on-" + event + "]")) {
+        let fn = e.target.getAttribute("on-" + event);
+        let comp = e.target.dataset.component;
+        std.components[comp].component_data[fn](e);
+      }
+    });
+  });
   // global.std = std;
 
   return {
